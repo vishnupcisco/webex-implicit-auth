@@ -4,8 +4,8 @@
 
 export const environment = {
   production: false,
-  client_id: 'C2007028377d9690458e3b59dfda78a11122a841c9dc9fd499e234b16ce9d948b',
-  client_secret: 'a9b8c7254dcaf62148eadd59a0edcb8b6b38980c2eb32a2145703e11fc5d8ddf',
+  client_id: '',
+  client_secret: '',
   redirect_uri: 'http://localhost:4200/rooms',
   scope: 'spark:all spark:kms'
 };
