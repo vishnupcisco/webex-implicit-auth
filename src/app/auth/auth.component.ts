@@ -15,7 +15,7 @@ export class AuthComponent implements OnInit, OnDestroy {
   constructor(private webex: WebexService, private router: Router) {}
 
   ngOnInit() {
-    // this.webex.onBeforeLogin()
+    this.webex.onBeforeLogin()
   }
 
   onLogin() {
